@@ -1,0 +1,13 @@
+This is a short program for an ATM machine
+
+- Upon running the executable file, the user is welcomed to the ATM and prompted with different ATM actions
+- A header file is used to create the Account object that has different fields and functions
+    - getName(), setName(), getBalance(), deposit(), withdraw(), getTransactionHistory()
+    - One special field of the Account object is the struct Transaction
+        - Its fields are string type and double amount.
+        - A transaction is created every time a user withdraws or deposits(type) with an amount
+        - When a transaction is created it is appended to a vector of the Transaction type
+
+* A make file is included to simplify compilation with necessary flags
+* To compile with make command enter 'make' in command line interface in project directory
+* The executable file is 'atm' to run type ./atm in CLI

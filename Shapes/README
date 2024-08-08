@@ -1,0 +1,12 @@
+
+This is a small object oriented program that creates a superclass shape and subclasses circle square triangle.
+
+- This program creates a superclass structure between the shape object, and the circle square and triangle objects.
+- Each subclass object has fields and functions of the shape object, but the shape object does have the fields or functions of any subclass object
+    - For example a shape has area, but to calculate area for a square vs a circle would require different equations and therefore use different functions within a square and circle object
+- The main.cpp file has different cases to test the inheritance of objects and uses pointers to reference different types of objects
+
+
+* A make file is included to simplify compilation with necessary flags
+* To compile with make command enter 'make' in command line interface in project directory
+* The executable file is 'shapes' to run type ./shapes in CLI
